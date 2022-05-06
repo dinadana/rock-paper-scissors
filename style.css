@@ -1,0 +1,88 @@
+html, body{
+    background-color: #14213d;
+    cursor: url(images/orange-cursor.cur), default;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.title{
+    color: #d62828;
+    font-size: 5rem;
+    font-family: 'Electrolize', sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.sub-title{
+    color: #d62828;
+    font-size: 4rem;
+    font-family: 'Electrolize', sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+
+.selection{
+    background: none;
+    border: none;
+    outline: none;
+    transition: 150ms;
+    padding: 5%;
+    cursor: url(images/orange-cursor.cur), default;
+}
+.selection:hover{
+    transform: scale(1.2);
+}
+
+.results{
+    color: #d62828;
+    font-size: 4rem;
+    font-family: 'Electrolize', sans-serif;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.result-score{
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    color: #fcbf49;
+}
+
+.result-selection {
+    opacity: .1;
+}
+
+.result-selection.winner {
+    opacity: 10;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#eae2b7;
+    color: #003049;
+    font-size: 4rem;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+    bottom: 0;
+    margin-bottom: 0;
+    min-height: 10%;
+    margin-top: 1rem;
+}
+
+
+
