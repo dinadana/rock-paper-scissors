@@ -2,4 +2,4 @@
 
 ### [The Odin Project](https://www.theodinproject.com/)
 
-### [Live Demo](https://dinadana.github.io/rock-paper-scissors-/)
+### [Live Demo](https://dinadana.github.io/rock-paper-scissors/)
